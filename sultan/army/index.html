@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <title>Join Pak Army</title>
+</head>
+
+<body>
+    <h1>Join Pak Army</h1>
+    <form action="#">
+        <h2>Nationality</h2>
+        <select name="" id="nat" required>
+            <option value="pk"> Pakistan</option>
+            <option value="tk">Turkey</option>
+            <option value="azr">Azerbaijan</option>
+            <option value="afg">Afghanistan</option>
+
+        </select>
+        <h2>Education</h2>
+        <select name="" id="edu" required>
+            <option value="mt">Matric</option>
+            <option value="int">Intermediate</option>
+            <option value="Bac">Bachelors</option>
+            <option value="Mas">Master</option>
+
+        </select>
+        <h2>Age</h2>
+        <input id="age" type="number" placeholder="Enter your age" required>
+
+
+        <h2> Height</h2>
+        <Input id="ht" type="number" placeholder="Enter you height"></Input>
+
+        <button onclick="ck()">Check</button>
+    </form>
+    <h1 id="result"></h1>
+    <script>
+
+        let Nationality = "pakistani"
+        let height = 5.5;
+        let age = 18;
+        let education = "matric"
+
+        if (Nationality === "pakistani" && height >= 5.5 && age >= 18 
+        && age <= 22 && education === "master") {
+
+             console.log("come")
+        } else {
+            console.log("dont")
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
